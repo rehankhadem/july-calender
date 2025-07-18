@@ -1,0 +1,76 @@
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-auto-rows: 100px;
+    gap: 5px;
+    color: red;
+}
+
+.july{
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.july h1{
+    margin-bottom: 0;
+}
+
+.july h2{
+    margin-top: 0;
+}
+
+.date, .day, .black, .red, .red-black,.red-black-2, .font-black, .font-red {
+    background-color: white;
+    border: 2px solid black ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
+    padding: 5px;
+}
+
+.date{
+    word-wrap: break-word;
+}
+
+.day{
+    background-color: yellow;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.text-primary{
+    color: black;
+}
+
+.red-black{
+    background-color: red;
+    color: black;
+}
+
+.red-black-2{
+    background-color: red;
+    color: black;
+    font-size: 2.5em;
+}
+
+.font-black{
+    color: black;
+}
+
+.font-red{
+    background-color: black;
+}
